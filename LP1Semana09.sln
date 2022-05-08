@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimInterf", "AnimInterf\An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager1", "PlayerManager1\PlayerManager1.csproj", "{71C193EB-8FED-4367-B591-BEEFE927D425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerManager2", "PlayerManager2\PlayerManager2.csproj", "{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{71C193EB-8FED-4367-B591-BEEFE927D425}.Release|x64.Build.0 = Release|Any CPU
 		{71C193EB-8FED-4367-B591-BEEFE927D425}.Release|x86.ActiveCfg = Release|Any CPU
 		{71C193EB-8FED-4367-B591-BEEFE927D425}.Release|x86.Build.0 = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|x64.Build.0 = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Debug|x86.Build.0 = Debug|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|x64.ActiveCfg = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|x64.Build.0 = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|x86.ActiveCfg = Release|Any CPU
+		{5430BEE6-5D68-4EA4-A41E-F8D657922F1E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
