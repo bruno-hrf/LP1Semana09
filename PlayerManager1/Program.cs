@@ -19,10 +19,14 @@ namespace PlayerManager1
                     if (players[i].Score > score)
                     {
                         scorePlayers.Add(players[i]);
-                        Console.WriteLine(scorePlayers[i].Name + ": " + scorePlayers[i].Score);
+                        
                     }
-                    
-                    
+                                    
+                }
+
+                for (int i=0; i < scorePlayers.Count; i++)
+                {
+                    Console.WriteLine((scorePlayers[i].Name + ": " + scorePlayers[i].Score));
                 }
 
                 return scorePlayers;
