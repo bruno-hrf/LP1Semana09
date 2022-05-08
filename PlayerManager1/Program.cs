@@ -10,25 +10,41 @@ namespace PlayerManager1
             List<Player> players = new List<Player>() {new Player("Jonny", 500), new Player ("Macaroni", 600)};
 
 
-            public IEnumerable<Player> GetPlayersWithScoreGreaterThan()
-            {
-                players.Sort();
-                return players;
-            }
+            IEnumerable<Player> GetPlayersWithScoreGreaterThan(int score)
+            {               
+                List<Player> scorePlayers = new List<Player>();
 
+                for (int i=0 ; i < players.Count; i++)
+                {
+                    if (players[i].Score > score)
+                    {
+                        scorePlayers.Add(players[i]);
+                        Console.WriteLine(scorePlayers[i].Name + ": " + scorePlayers[i].Score);
+                    }
+                    
+                    
+                }
+
+                return scorePlayers;
+
+            }
+    
+            int score= 0;
             bool loop = true;
             while (loop == true)
             {
                 Console.WriteLine("\n\nMenu:\n1-Inserir jogador(nome e score)\n2-Listar jogadores\n3-Listar jogadores com Score maior que o inserido\n4-Sair");
                 
                 int opcao= Convert.ToInt32(Console.ReadLine());
+                string name;
+                
 
                 switch (opcao)
                 {
+                    
                     case 1:
                     {   
-                        string name;
-                        int score;
+                        
                         Console.WriteLine("Nome do jogador:");
                         name = Console.ReadLine();
                         Console.WriteLine($"Score de {name}:");
@@ -50,7 +66,8 @@ namespace PlayerManager1
 
                     case 3:
                     {
-                        GetPlayersWithScoreGreaterThan(players);
+                    
+                        GetPlayersWithScoreGreaterThan(score);
                         break;
                     }
                     
@@ -59,9 +76,7 @@ namespace PlayerManager1
                     {
                         loop = false;
                         break;
-                    }
-
-                    
+                    }                   
                 }
                 
 
