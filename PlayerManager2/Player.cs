@@ -15,5 +15,6 @@ namespace PlayerManager1
             Name = newName;
             Score = newScore;
         }
+    }
         
 }
